@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>CADASTRO DE ALUNOS</title>
+		<style>
+		#mt{
+			position: absolute;
+			top: 208px;
+			left:120px;
+		}
+		</style>
+	</head>
+	<body>
+		<H1>CADASTRO DE ALUNOS</H1>
+		<FORM method="post" action="servletCadastro">
+			<table>
+				<tr>
+					<td>
+						<label>Nome: </label>
+					</td>
+					<td>
+						<input type = "text" name = "txtNome"><br>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Idade: </label>
+					</td>
+					<td>
+						<input type = "text" name = "txtIdade"><br>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Sexo: </label>
+					</td>
+					<td>
+						<input type = "text" name = "txtSexo"><br>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Curso: </label>
+					</td>
+					<td>
+						<input type = "text" name = "txtCurso"><br>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<label>Rg: </label>
+					</td>
+					<td>
+						<input type = "text" name = "txtRg"><br>
+					</td>
+				</tr>
+				<tr>
+				<td></td>
+				<td>
+					<input type="submit" value = "Salvar">
+					
+				</td>
+				</tr>
+			</table>
+		</FORM>
+		<a href= "http://localhost:8080/Universidade3/servletmostrartodos">
+		<button id="mt">Mostrar todos</button>
+		</a>
+		</body>
+</html>
